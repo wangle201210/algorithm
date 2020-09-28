@@ -1,7 +1,7 @@
 <?php
 
 test();
-
+// 每次找到最小的放在开头
 function select_sort(array $arr): array
 {
 	$len = count($arr);
